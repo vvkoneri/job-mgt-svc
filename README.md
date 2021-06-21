@@ -81,3 +81,7 @@ There are two ways of submitting the jobs to the application
 5. jasypt to encrypt credentials currently in properties file
 6. Dedicated UI for Job Management and Control
 7. Orchestration of jobs, executing dependant jobs in a sequential fashion and at a particular point
+ 
+**Notes**
+Output of the jobs can be seen in the logs under src/main/resources/logs directory
+ 
