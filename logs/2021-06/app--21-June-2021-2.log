@@ -1,0 +1,18 @@
+2021-06-21 15:12:33,200 INFO o.s.b.StartupInfoLogger [main] Starting JobProcessTest using Java 15.0.1 on WEIN00146M.local with PID 20271 (started by vkoneri in /Users/vkoneri/eclipse-workspace/JobManagementSvc)
+2021-06-21 15:12:33,209 INFO o.s.b.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-06-21 15:12:33,365 WARN o.s.c.s.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'jobProcessTest': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'jobProcessor': Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.pyr.app.parser.JobFileParser' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2021-06-21 15:12:33,389 ERROR o.s.b.d.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 1 of constructor in com.pyr.app.service.JobProcessor required a bean of type 'com.pyr.app.parser.JobFileParser' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.pyr.app.parser.JobFileParser' in your configuration.
+

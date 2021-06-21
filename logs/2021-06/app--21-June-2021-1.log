@@ -1,0 +1,18 @@
+2021-06-21 15:11:54,955 INFO o.s.b.StartupInfoLogger [main] Starting JobProcessTest using Java 15.0.1 on WEIN00146M.local with PID 20261 (started by vkoneri in /Users/vkoneri/eclipse-workspace/JobManagementSvc)
+2021-06-21 15:11:54,967 INFO o.s.b.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-06-21 15:11:55,113 WARN o.s.c.s.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'jobProcessTest': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'jobProcessor': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataServicer': Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.pyr.app.db.H2DbClient' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2021-06-21 15:11:55,137 ERROR o.s.b.d.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 1 of constructor in com.pyr.app.service.DataServicer required a bean of type 'com.pyr.app.db.H2DbClient' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.pyr.app.db.H2DbClient' in your configuration.
+

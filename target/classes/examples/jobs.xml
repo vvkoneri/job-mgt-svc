@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jobs owner="testUser2">
+	<job name="job1" engine="python" schedule="2021-06-18 14:20" priority="0">
+		<![CDATA[src/main/resources/python/hello.py]]>
+	</job>
+	<job name="job2" engine="javascript" schedule="immediate" priority="2">
+		<![CDATA[
+			function hello() {
+				print("Hello Payoneer Gang");
+			}
+			
+			hello();
+		]]>
+	</job>
+	<job name="job3" engine="python" schedule="immediate" priority="9">
+		<![CDATA[src/main/resources/python/hello.py]]>
+	</job>
+</jobs>

@@ -1,0 +1,44 @@
+2021-06-18 21:20:13,227 INFO o.s.b.StartupInfoLogger [main] Starting JobMgtSvcApp using Java 1.8.0_265 on WEIN00146M.local with PID 91228 (/Users/vkoneri/eclipse-workspace/JobManagementSvc/target/classes started by vkoneri in /Users/vkoneri/eclipse-workspace/JobManagementSvc)
+2021-06-18 21:20:13,239 INFO o.s.b.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-06-18 21:20:13,994 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-18 21:20:14,016 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 9 ms. Found 0 JPA repository interfaces.
+2021-06-18 21:20:14,755 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 9091 (http)
+2021-06-18 21:20:14,769 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-9091"]
+2021-06-18 21:20:14,769 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2021-06-18 21:20:14,770 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-18 21:20:14,845 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-06-18 21:20:14,845 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1551 ms
+2021-06-18 21:20:14,895 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2021-06-18 21:20:15,168 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-06-18 21:20:15,180 INFO o.s.b.a.h.H2ConsoleAutoConfiguration [main] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:jobsdb'
+2021-06-18 21:20:15,394 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-18 21:20:15,474 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 5.4.31.Final
+2021-06-18 21:20:15,691 INFO o.h.a.c.r.j.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-06-18 21:20:15,845 INFO o.h.d.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-06-18 21:20:16,129 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-18 21:20:16,142 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-18 21:20:16,229 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-18 21:20:16,636 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-9091"]
+2021-06-18 21:20:16,675 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 9091 (http) with context path ''
+2021-06-18 21:20:16,686 INFO c.p.a.s.JobScheduler [scheduling-1] No jobs to run in the queue
+2021-06-18 21:20:16,688 INFO o.s.b.StartupInfoLogger [main] Started JobMgtSvcApp in 4.091 seconds (JVM running for 5.41)
+2021-06-18 21:20:16,690 INFO o.s.b.a.ApplicationAvailabilityBean [main] Application availability state LivenessState changed to CORRECT
+2021-06-18 21:20:21,685 INFO c.p.a.s.JobScheduler [scheduling-1] No jobs to run in the queue
+2021-06-18 21:20:26,688 INFO c.p.a.s.JobScheduler [scheduling-1] No jobs to run in the queue
+2021-06-18 21:20:31,690 INFO c.p.a.s.JobScheduler [scheduling-1] No jobs to run in the queue
+2021-06-18 21:20:36,690 INFO c.p.a.s.JobScheduler [scheduling-1] No jobs to run in the queue
+2021-06-18 21:20:41,690 INFO c.p.a.s.JobScheduler [scheduling-1] No jobs to run in the queue
+2021-06-18 21:20:46,690 INFO c.p.a.s.JobScheduler [scheduling-1] No jobs to run in the queue
+2021-06-18 21:20:51,687 INFO c.p.a.s.JobScheduler [scheduling-1] No jobs to run in the queue
+2021-06-18 21:20:56,690 INFO c.p.a.s.JobScheduler [scheduling-1] No jobs to run in the queue
+2021-06-18 21:21:01,686 INFO c.p.a.s.JobScheduler [scheduling-1] No jobs to run in the queue
+2021-06-18 21:21:06,686 INFO c.p.a.s.JobScheduler [scheduling-1] No jobs to run in the queue
+2021-06-18 21:21:11,687 INFO c.p.a.s.JobScheduler [scheduling-1] No jobs to run in the queue
+2021-06-18 21:21:16,690 INFO c.p.a.s.JobScheduler [scheduling-1] No jobs to run in the queue
+2021-06-18 21:21:21,687 INFO c.p.a.s.JobScheduler [scheduling-1] No jobs to run in the queue
+2021-06-18 21:21:26,686 INFO c.p.a.s.JobScheduler [scheduling-1] No jobs to run in the queue
+2021-06-18 21:21:31,690 INFO c.p.a.s.JobScheduler [scheduling-1] No jobs to run in the queue
+2021-06-18 21:21:36,690 INFO c.p.a.s.JobScheduler [scheduling-1] No jobs to run in the queue
+2021-06-18 21:21:41,686 INFO c.p.a.s.JobScheduler [scheduling-1] No jobs to run in the queue
+2021-06-18 21:21:46,690 INFO c.p.a.s.JobScheduler [scheduling-1] No jobs to run in the queue
+2021-06-18 21:21:51,686 INFO c.p.a.s.JobScheduler [scheduling-1] No jobs to run in the queue

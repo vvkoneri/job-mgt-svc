@@ -1,0 +1,59 @@
+2021-06-18 21:31:28,777 INFO o.s.b.StartupInfoLogger [main] Starting JobMgtSvcApp using Java 1.8.0_265 on WEIN00146M.local with PID 91470 (/Users/vkoneri/eclipse-workspace/JobManagementSvc/target/classes started by vkoneri in /Users/vkoneri/eclipse-workspace/JobManagementSvc)
+2021-06-18 21:31:28,787 INFO o.s.b.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-06-18 21:31:29,486 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-18 21:31:29,507 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 9 ms. Found 0 JPA repository interfaces.
+2021-06-18 21:31:30,193 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 9091 (http)
+2021-06-18 21:31:30,206 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-9091"]
+2021-06-18 21:31:30,206 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2021-06-18 21:31:30,206 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-18 21:31:30,276 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-06-18 21:31:30,277 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1440 ms
+2021-06-18 21:31:30,324 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2021-06-18 21:31:30,590 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-06-18 21:31:30,601 INFO o.s.b.a.h.H2ConsoleAutoConfiguration [main] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:jobsdb'
+2021-06-18 21:31:30,811 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-18 21:31:30,891 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 5.4.31.Final
+2021-06-18 21:31:31,094 INFO o.h.a.c.r.j.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-06-18 21:31:31,246 INFO o.h.d.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-06-18 21:31:31,519 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-18 21:31:31,531 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-18 21:31:31,617 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-18 21:31:32,029 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-9091"]
+2021-06-18 21:31:32,081 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 9091 (http) with context path ''
+2021-06-18 21:31:32,093 INFO c.p.a.s.JobScheduler [scheduling-1] No jobs to run in the queue
+2021-06-18 21:31:32,096 INFO o.s.b.StartupInfoLogger [main] Started JobMgtSvcApp in 3.993 seconds (JVM running for 5.26)
+2021-06-18 21:31:32,098 INFO o.s.b.a.ApplicationAvailabilityBean [main] Application availability state LivenessState changed to CORRECT
+2021-06-18 21:31:37,094 INFO c.p.a.s.JobScheduler [scheduling-1] No jobs to run in the queue
+2021-06-18 21:31:39,329 INFO c.p.a.s.DataServicer [main] Job added to the Queue with job id : 1074b270ba9f6edbdc097d99dd4b7f68
+2021-06-18 21:31:42,099 INFO c.p.a.s.DataServicer [scheduling-1] Job updated in Queue with job id : 1074b270ba9f6edbdc097d99dd4b7f68
+2021-06-18 21:31:42,100 INFO c.p.a.s.DataServicer [scheduling-1] Job updated in Queue with job id : 1074b270ba9f6edbdc097d99dd4b7f68 to RUNNING
+2021-06-18 21:31:44,293 INFO c.p.a.e.PythonEngine [scheduling-1] Output for Job Id 1074b270ba9f6edbdc097d99dd4b7f68 : 400
+
+2021-06-18 21:31:44,294 INFO c.p.a.s.DataServicer [scheduling-1] Job updated in Queue with job id : 1074b270ba9f6edbdc097d99dd4b7f68 to SUCCESS
+2021-06-18 21:31:47,093 INFO c.p.a.s.JobScheduler [scheduling-1] No jobs to run in the queue
+2021-06-18 21:31:52,097 INFO c.p.a.s.JobScheduler [scheduling-1] No jobs to run in the queue
+2021-06-18 21:31:57,097 INFO c.p.a.s.JobScheduler [scheduling-1] No jobs to run in the queue
+2021-06-18 21:32:02,097 INFO c.p.a.s.JobScheduler [scheduling-1] No jobs to run in the queue
+2021-06-18 21:32:07,093 INFO c.p.a.s.JobScheduler [scheduling-1] No jobs to run in the queue
+2021-06-18 21:32:12,098 INFO c.p.a.s.JobScheduler [scheduling-1] No jobs to run in the queue
+2021-06-18 21:32:17,099 INFO c.p.a.s.JobScheduler [scheduling-1] No jobs to run in the queue
+2021-06-18 21:32:19,356 INFO c.p.a.s.DataServicer [main] Job added to the Queue with job id : 179b8584cda8c62bcc85fb32c9fa67c4
+2021-06-18 21:32:19,357 INFO c.p.a.s.DataServicer [main] Job added to the Queue with job id : 26c4bce94658b308dc79d3d637fc6413
+2021-06-18 21:32:19,358 INFO c.p.a.s.DataServicer [main] Job added to the Queue with job id : 5c233132fa8f9c30a400db271ef223c6
+2021-06-18 21:32:22,104 INFO c.p.a.s.DataServicer [scheduling-1] Job updated in Queue with job id : 5c233132fa8f9c30a400db271ef223c6
+2021-06-18 21:32:22,105 INFO c.p.a.s.DataServicer [scheduling-1] Job updated in Queue with job id : 5c233132fa8f9c30a400db271ef223c6 to RUNNING
+2021-06-18 21:32:22,543 INFO c.p.a.e.PythonEngine [scheduling-1] Output for Job Id 5c233132fa8f9c30a400db271ef223c6 : 400
+
+2021-06-18 21:32:22,544 INFO c.p.a.s.DataServicer [scheduling-1] Job updated in Queue with job id : 5c233132fa8f9c30a400db271ef223c6 to SUCCESS
+2021-06-18 21:32:27,106 INFO c.p.a.s.DataServicer [scheduling-1] Job updated in Queue with job id : 26c4bce94658b308dc79d3d637fc6413
+2021-06-18 21:32:27,107 INFO c.p.a.s.DataServicer [scheduling-1] Job updated in Queue with job id : 26c4bce94658b308dc79d3d637fc6413 to RUNNING
+2021-06-18 21:32:27,480 INFO c.p.a.e.JavascriptEngine [scheduling-1] Output for Job Id 26c4bce94658b308dc79d3d637fc6413 : Hello Payoneer Gang
+
+2021-06-18 21:32:27,481 INFO c.p.a.s.DataServicer [scheduling-1] Job updated in Queue with job id : 26c4bce94658b308dc79d3d637fc6413 to SUCCESS
+2021-06-18 21:32:32,108 INFO c.p.a.s.DataServicer [scheduling-1] Job updated in Queue with job id : 179b8584cda8c62bcc85fb32c9fa67c4
+2021-06-18 21:32:32,110 INFO c.p.a.s.DataServicer [scheduling-1] Job added to the Later Queue with job id : 179b8584cda8c62bcc85fb32c9fa67c4
+2021-06-18 21:32:32,112 INFO c.p.a.s.DataServicer [scheduling-1] Job updated in Queue with job id : 179b8584cda8c62bcc85fb32c9fa67c4 to RUNNING
+2021-06-18 21:32:32,510 INFO c.p.a.e.PythonEngine [scheduling-1] Output for Job Id 179b8584cda8c62bcc85fb32c9fa67c4 : 400
+
+2021-06-18 21:32:32,511 INFO c.p.a.s.DataServicer [scheduling-1] Job updated in Queue with job id : 179b8584cda8c62bcc85fb32c9fa67c4 to SUCCESS
+2021-06-18 21:32:32,512 INFO c.p.a.s.DataServicer [scheduling-1] Job removed from later Queue with job id : 179b8584cda8c62bcc85fb32c9fa67c4
