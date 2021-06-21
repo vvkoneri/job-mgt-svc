@@ -1,3 +1,70 @@
-2021-06-21 15:13:11,700 INFO o.s.b.StartupInfoLogger [main] Starting JobProcessTest using Java 15.0.1 on WEIN00146M.local with PID 20295 (started by vkoneri in /Users/vkoneri/eclipse-workspace/JobManagementSvc)
-2021-06-21 15:13:11,710 INFO o.s.b.SpringApplication [main] No active profile set, falling back to default profiles: default
-2021-06-21 15:13:11,881 INFO o.s.b.StartupInfoLogger [main] Started JobProcessTest in 0.481 seconds (JVM running for 1.361)
+2021-06-21 19:37:45,503 INFO o.s.b.StartupInfoLogger [main] Starting JobMgtSvcApp v0.0.1-SNAPSHOT using Java 1.8.0_265 on WEIN00146M.local with PID 25244 (/Users/vkoneri/eclipse-workspace/JobManagementSvc/target/JobManagementSvc-0.0.1-SNAPSHOT.jar started by vkoneri in /Users/vkoneri/eclipse-workspace/JobManagementSvc)
+2021-06-21 19:37:45,511 INFO o.s.b.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-06-21 19:37:46,161 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-21 19:37:46,177 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 6 ms. Found 0 JPA repository interfaces.
+2021-06-21 19:37:46,836 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 9091 (http)
+2021-06-21 19:37:46,847 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-9091"]
+2021-06-21 19:37:46,847 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2021-06-21 19:37:46,848 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-21 19:37:46,904 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-06-21 19:37:46,904 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1349 ms
+2021-06-21 19:37:46,944 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2021-06-21 19:37:47,210 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-06-21 19:37:47,220 INFO o.s.b.a.h.H2ConsoleAutoConfiguration [main] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:jobsdb'
+2021-06-21 19:37:47,510 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-21 19:37:47,682 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 5.4.31.Final
+2021-06-21 19:37:47,968 INFO o.h.a.c.r.j.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-06-21 19:37:48,143 INFO o.h.d.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-06-21 19:37:48,425 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-21 19:37:48,437 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-21 19:37:48,526 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-21 19:37:49,044 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-9091"]
+2021-06-21 19:37:49,073 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 9091 (http) with context path ''
+2021-06-21 19:37:49,085 INFO c.p.a.s.JobScheduler [scheduling-1] No jobs to run in the queue
+2021-06-21 19:37:49,087 INFO o.s.b.StartupInfoLogger [main] Started JobMgtSvcApp in 4.087 seconds (JVM running for 4.833)
+2021-06-21 19:37:49,088 INFO o.s.b.a.ApplicationAvailabilityBean [main] Application availability state LivenessState changed to CORRECT
+2021-06-21 19:37:51,139 INFO c.p.a.s.DataServicer [main] Job added to the Queue with job id : d577f25887d3b8cd9329eaf976a55b3c
+2021-06-21 19:37:54,092 INFO c.p.a.s.DataServicer [scheduling-1] Job updated in Queue with job id : d577f25887d3b8cd9329eaf976a55b3c
+2021-06-21 19:37:54,093 INFO c.p.a.s.DataServicer [scheduling-1] Job updated in Queue with job id : d577f25887d3b8cd9329eaf976a55b3c to RUNNING
+2021-06-21 19:37:54,395 WARN c.p.a.s.JobScheduler [scheduling-1] job failed due to : null
+2021-06-21 19:37:54,396 INFO c.p.a.s.DataServicer [scheduling-1] Job updated in Queue with job id : d577f25887d3b8cd9329eaf976a55b3c to FAILED
+2021-06-21 19:37:59,085 INFO c.p.a.s.JobScheduler [scheduling-1] No jobs to run in the queue
+2021-06-21 19:38:04,089 INFO c.p.a.s.JobScheduler [scheduling-1] No jobs to run in the queue
+2021-06-21 19:38:09,085 INFO c.p.a.s.JobScheduler [scheduling-1] No jobs to run in the queue
+2021-06-21 19:38:14,089 INFO c.p.a.s.JobScheduler [scheduling-1] No jobs to run in the queue
+2021-06-21 19:38:19,084 INFO c.p.a.s.JobScheduler [scheduling-1] No jobs to run in the queue
+2021-06-21 19:38:24,087 INFO c.p.a.s.JobScheduler [scheduling-1] No jobs to run in the queue
+2021-06-21 19:38:29,087 INFO c.p.a.s.JobScheduler [scheduling-1] No jobs to run in the queue
+2021-06-21 19:38:34,087 INFO c.p.a.s.JobScheduler [scheduling-1] No jobs to run in the queue
+2021-06-21 19:38:39,085 INFO c.p.a.s.JobScheduler [scheduling-1] No jobs to run in the queue
+2021-06-21 19:38:44,088 INFO c.p.a.s.JobScheduler [scheduling-1] No jobs to run in the queue
+2021-06-21 19:38:49,087 INFO c.p.a.s.JobScheduler [scheduling-1] No jobs to run in the queue
+2021-06-21 19:38:54,088 INFO c.p.a.s.JobScheduler [scheduling-1] No jobs to run in the queue
+2021-06-21 19:38:59,086 INFO c.p.a.s.JobScheduler [scheduling-1] No jobs to run in the queue
+2021-06-21 19:39:04,084 INFO c.p.a.s.JobScheduler [scheduling-1] No jobs to run in the queue
+2021-06-21 19:39:09,085 INFO c.p.a.s.JobScheduler [scheduling-1] No jobs to run in the queue
+2021-06-21 19:39:14,088 INFO c.p.a.s.JobScheduler [scheduling-1] No jobs to run in the queue
+2021-06-21 19:39:19,085 INFO c.p.a.s.JobScheduler [scheduling-1] No jobs to run in the queue
+2021-06-21 19:39:24,087 INFO c.p.a.s.JobScheduler [scheduling-1] No jobs to run in the queue
+2021-06-21 19:39:29,084 INFO c.p.a.s.JobScheduler [scheduling-1] No jobs to run in the queue
+2021-06-21 19:39:34,089 INFO c.p.a.s.JobScheduler [scheduling-1] No jobs to run in the queue
+2021-06-21 19:39:39,085 INFO c.p.a.s.JobScheduler [scheduling-1] No jobs to run in the queue
+2021-06-21 19:39:44,088 INFO c.p.a.s.JobScheduler [scheduling-1] No jobs to run in the queue
+2021-06-21 19:39:49,084 INFO c.p.a.s.JobScheduler [scheduling-1] No jobs to run in the queue
+2021-06-21 19:39:54,086 INFO c.p.a.s.JobScheduler [scheduling-1] No jobs to run in the queue
+2021-06-21 19:39:59,088 INFO c.p.a.s.JobScheduler [scheduling-1] No jobs to run in the queue
+2021-06-21 19:40:04,087 INFO c.p.a.s.JobScheduler [scheduling-1] No jobs to run in the queue
+2021-06-21 19:40:09,085 INFO c.p.a.s.JobScheduler [scheduling-1] No jobs to run in the queue
+2021-06-21 19:40:14,084 INFO c.p.a.s.JobScheduler [scheduling-1] No jobs to run in the queue
+2021-06-21 19:40:19,085 INFO c.p.a.s.JobScheduler [scheduling-1] No jobs to run in the queue
+2021-06-21 19:40:24,084 INFO c.p.a.s.JobScheduler [scheduling-1] No jobs to run in the queue
+2021-06-21 19:40:29,087 INFO c.p.a.s.JobScheduler [scheduling-1] No jobs to run in the queue
+2021-06-21 19:40:34,084 INFO c.p.a.s.JobScheduler [scheduling-1] No jobs to run in the queue
+2021-06-21 19:40:39,085 INFO c.p.a.s.JobScheduler [scheduling-1] No jobs to run in the queue
+2021-06-21 19:40:44,083 INFO c.p.a.s.JobScheduler [scheduling-1] No jobs to run in the queue
+2021-06-21 19:40:49,084 INFO c.p.a.s.JobScheduler [scheduling-1] No jobs to run in the queue
+2021-06-21 19:40:54,085 INFO c.p.a.s.JobScheduler [scheduling-1] No jobs to run in the queue
+2021-06-21 19:40:59,084 INFO c.p.a.s.JobScheduler [scheduling-1] No jobs to run in the queue
+2021-06-21 19:41:04,085 INFO c.p.a.s.JobScheduler [scheduling-1] No jobs to run in the queue
+2021-06-21 19:41:09,084 INFO c.p.a.s.JobScheduler [scheduling-1] No jobs to run in the queue
+2021-06-21 19:41:09,505 INFO o.s.b.a.ApplicationAvailabilityBean [SpringContextShutdownHook] Application availability state ReadinessState changed to REFUSING_TRAFFIC

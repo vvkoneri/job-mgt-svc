@@ -25,6 +25,8 @@ public class PythonEngine implements Engine {
 		StringWriter writer = new StringWriter();
 	    ScriptContext context = new SimpleScriptContext();
 	    context.setWriter(writer);
+	    
+	    
 		
 	    engine.eval(new FileReader(execCode), context);
 

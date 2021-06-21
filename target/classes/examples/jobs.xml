@@ -6,7 +6,7 @@
 	<job name="job2" engine="javascript" schedule="immediate" priority="2">
 		<![CDATA[
 			function hello() {
-				print("Hello Payoneer Gang");
+				print('Hello Payoneer Gang');
 			}
 			
 			hello();

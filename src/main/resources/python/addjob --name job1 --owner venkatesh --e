@@ -1,0 +1,18 @@
+addjob --name job1 --owner venkatesh --engine python --code "/Users/vkoneri/eclipse-workspace/JobManagementSvc/src/main/resources/python/hello.py" --s immediate
+
+deletejob --id ddd
+
+addjob --file src/main/resources/examples/jobs.xml
+
+addjob --name job1 --owner venkatesh --engine javascript --code "print(100+1000)" --s immediate
+
+F1 L1 A01 A02 F2 L1 A01 A02 W03 A03 A01 W01 F3 L1 W01
+                                            F2 L1 W03
+                                            F1 L1 W00
+
+F1 L1 A01 A02 F2 L1 A01 A02 W03 A02 A01 W01 F3 L1 W01
+                                        W01 F2 L1 W03
+
+F1 L1 A01 A02 F3 L1 A01 A02 W01 A03 A01 
+
+F1 L1 A01 A02 F3 L1 A01 A02 W01 A02 A01 

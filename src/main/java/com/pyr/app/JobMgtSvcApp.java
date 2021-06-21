@@ -33,7 +33,7 @@ public class JobMgtSvcApp implements CommandLineRunner {
 			String[] commandArgs = command.split("\\s+");
 			
 	
-			if(args[0].equalsIgnoreCase("exit")) {
+			if(commandArgs[0].equalsIgnoreCase("exit")) {
 				break;
 			}
 			String cmdResult = jobProcessor.runJob(commandArgs);
